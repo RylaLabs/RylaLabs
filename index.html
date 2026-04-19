@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ryla Labs</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f8fafc;
+      color: #0f172a;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      background: white;
+      border-bottom: 1px solid #e2e8f0;
+      position: sticky;
+      top: 0;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo img {
+      height: 80px;
+    }
+
+    .btn {
+      background: #2563eb;
+      color: white;
+      padding: 10px 18px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin-top: 50px;
+    }
+
+    p {
+      color: #475569;
+    }
+
+    .box {
+      background: white;
+      border: 1px solid #e2e8f0;
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 15px;
+    }
+
+    .pricing {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="logo">
+      <img src="logo.png" alt="Ryla Labs Logo">
+    </div>
+    <a href="#contact" class="btn">Book Free Call</a>
+  </div>
+
+  <div class="container">
+
+    <h1>Turn your work into AI systems that save hours every week</h1>
+    <p>We build custom AI workflows for your business. You tell us the task. We automate it.</p>
+
+    <a href="#contact" class="btn">Book Free Consultation</a>
+
+    <h2>What we build</h2>
+
+    <div class="box">Automated emails</div>
+    <div class="box">Content and writing</div>
+    <div class="box">Business workflows</div>
+
+    <h2>Pricing</h2>
+
+    <div class="pricing">
+      <div class="box">
+        <strong>Free Consultation</strong><br>$0
+      </div>
+      <div class="box">
+        <strong>Quick Build</strong><br>$100
+      </div>
+      <div class="box">
+        <strong>Starter System</strong><br>$250
+      </div>
+      <div class="box">
+        <strong>Monthly Support</strong><br>$300 to $500
+      </div>
+    </div>
+
+    <h2 id="contact">Book a free call</h2>
+
+    <input placeholder="Your name">
+    <input placeholder="Email">
+    <textarea placeholder="What do you need done?"></textarea>
+
+    <br><br>
+    <a class="btn">Request Free Call</a>
+
+  </div>
+
+</body>
+</html>
